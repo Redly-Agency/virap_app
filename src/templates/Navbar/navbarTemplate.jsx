@@ -1,14 +1,19 @@
 import React from 'react';
 import {
+    NavbarBackdropBlur,
     NavbarTemplateWrapper,
+    LogoStyled,
 } from './navbarTemplate.style';
 
 class NavbarTemplate extends React.Component {
     render() {
         return (
-            <NavbarTemplateWrapper>
-                test navbar wrapper
-            </NavbarTemplateWrapper>
+            <>
+                <NavbarBackdropBlur />
+                <NavbarTemplateWrapper>
+                    <LogoStyled />
+                </NavbarTemplateWrapper>
+            </>
         )
     }
 }

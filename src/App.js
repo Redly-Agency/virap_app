@@ -15,10 +15,12 @@ document.oncontextmenu = document.body.oncontextmenu = function() {return false;
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
+    padding: 0;
   }
 `;
 const AppWrapper = styled.div`
-
+  margin: 0;
+  padding: 0;
 `;
 
 const Home = lazy(() => import('./views/home'));
