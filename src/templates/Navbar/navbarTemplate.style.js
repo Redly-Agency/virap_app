@@ -7,7 +7,7 @@ export const NavbarBackdropBlur = styled.div`
     backdrop-filter: blur(10px);
     width: 100%;
     position: absolute;
-    height: 66.4px;
+    height: 70px;
 `;
 export const NavbarTemplateWrapper = styled.div`
     width: 100%;
@@ -18,8 +18,9 @@ export const NavbarTemplateWrapper = styled.div`
 `;
 export const LogoStyled = styled(Logo)`
     width: auto;
-    height: 45px;
-    margin: 10px 0 7px 0;
+    height: 70px;
+    margin: 0 0 7px 0;
+    padding: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
 `;

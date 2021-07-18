@@ -9,7 +9,7 @@ class NavbarTemplate extends React.Component {
     render() {
         return (
             <>
-                <NavbarBackdropBlur />
+                <NavbarBackdropBlur className="backdrop-blur-xl" />
                 <NavbarTemplateWrapper>
                     <LogoStyled />
                 </NavbarTemplateWrapper>

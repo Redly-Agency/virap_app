@@ -6,7 +6,7 @@ import {
 class HomeTemplate extends React.Component {
     render() {
         return (
-            <HeroTemplateWrapper>
+            <HeroTemplateWrapper className="container mx-auto">
                 test hero wrapper
             </HeroTemplateWrapper>
         )
