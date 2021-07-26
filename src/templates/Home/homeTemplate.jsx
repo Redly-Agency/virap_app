@@ -21,7 +21,7 @@ class HomeTemplate extends React.Component {
                     >
                         <HeroHeaderContact />
                     </div>
-                    <div className="">
+                    <div className=" ">
                         <ImgImport
                             src={ imageImport }
                             className="w-4/6"
