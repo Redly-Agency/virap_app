@@ -1,4 +1,7 @@
 export const Contact = {
-    MainHeaderContent: 'Organizing concerts is a pleasure',
-    ContactButton: 'Contact',
+    ContactTitleContent: 'Contact with us',
+    ContactName: 'Name',
+    ContactEmail: 'E-mail',
+    ContactMessage: 'Message',
+    ContactButtonForm: 'Send',
 }

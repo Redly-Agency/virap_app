@@ -6,6 +6,7 @@ import {
   Switch
 } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import './fonts/fonts.css';
 
 import Navbar from './templates/Navbar/navbarTemplate';
 
@@ -13,6 +14,9 @@ import Navbar from './templates/Navbar/navbarTemplate';
 document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    transition: 0.2s;
+  }
   body {
     margin: 0;
     padding: 0;

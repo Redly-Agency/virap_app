@@ -1,12 +1,14 @@
 const fontSize = {
     //desktop
-    DA: '55px',
+    DA: '12px',
     DB: '29px',
-    DC: '12px',
+    DC: '65px',
+    DCC: '60px',
+    DCCC: '48px',
     //mobile
-    MA: '55px',
+    MA: '17px',
     MB: '29px',
-    MC: '17px',
+    MC: '55px',
 }
 const colors = {
     black: '#000',
@@ -19,8 +21,8 @@ const size = {
     mobileMscale: '575px',
     mobileL: '767px',
     tablet: '991px',
-    laptop: '1199px',
-    laptopL: '1440px',
+    laptop: '1279px',
+    laptopL: '1535px',
     desktop: '2560px',
     browserviewportheight: '1100px',
     lowScreenVerticalHeight: '745px',
